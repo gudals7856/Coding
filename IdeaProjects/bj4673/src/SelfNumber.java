@@ -16,7 +16,7 @@ public class SelfNumber {
 
         return sum;
     }
-sadfasdff
+
     public static void main(String[] args) {
         boolean[] a = new boolean[10001];
         int isConstructor;
