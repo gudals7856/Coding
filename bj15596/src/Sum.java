@@ -1,6 +1,6 @@
 package bj15596;
 
-public class Test {
+public class Sum {
 
     static long sum(int[] a) {
         long ans = 0;
