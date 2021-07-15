@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231ba015-1f66-4487-9581-66ed724a595b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bj17837/bj17837.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pmrs_numberenglish/pmrs_numberenglish.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bj3190/Main$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bj3190/Main$Pair.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bj3190/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bj3190/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bj3190/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bj3190/SuperClass.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,6 +42,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="bj3190" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,7 +79,7 @@
       <workItem from="1625916344117" duration="2613000" />
       <workItem from="1625976536900" duration="4000" />
       <workItem from="1626073620687" duration="11252000" />
-      <workItem from="1626166873447" duration="1473000" />
+      <workItem from="1626166873447" duration="3059000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,3 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.io.*;
 import java.util.StringTokenizer;
 import java.util.Vector;
@@ -11,7 +10,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());  // 보드의 크기 nxn
         int k = Integer.parseInt(br.readLine());  // 사과의 개수
-        int X = 1;  // 현재 뱀의 위치 X 좌표
+        int X = 0;  // 현재 뱀의 위치 X 좌표
         int Y = 0;  // 현재 뱀의 위치 Y 좌표
         int time = 0;
         int[][] board = new int[n][n];        // 뱀이 위치되어있으면 1, 아니면 0
@@ -27,8 +26,6 @@ public class Main {
             StringTokenizer st = new StringTokenizer(str);
             applePos[i][0] = Integer.parseInt(st.nextToken()) - 1;
             applePos[i][1] = Integer.parseInt(st.nextToken()) - 1;
-            System.out.println();
-            System.out.println("apple : " + applePos[i][0] + " " + applePos[i][1]);
         }
 
         int l = Integer.parseInt(br.readLine());
@@ -42,10 +39,8 @@ public class Main {
         }
 
         board[0][0] = 1;
-        board[0][1] = 1;
 
         snake.add(new Pair(0, 0));
-        snake.add(new Pair(0, 1));
 
         while (true) {      // 벽에 부딪히면 끝남
 
@@ -88,8 +83,6 @@ public class Main {
                     }
                 }
             }
-
-            System.out.println("좌표 :" + Y + " " + X);
             X += addX;
             Y += addY;
             time++;
@@ -121,13 +114,6 @@ public class Main {
                 board[snake.get(0).first][snake.get(0).second] = 0;    // 뱀의 길이를 줄여줌
                 snake.remove(0);
             }
-
-            System.out.println(time);
-            for (int i = 0; i < snake.size(); i++) {
-                System.out.println("snake = " + snake.get(i).first + " " + snake.get(i).second);
-            }
-            System.out.println();
-
             eatApple = false;   // 사과 먹었는지 여부를 false로 바꾸어놓음
         }
         bw.write(time+"");
