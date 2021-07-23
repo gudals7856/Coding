@@ -17,6 +17,7 @@ public class Main {
             for (int j = 0; j < k; j++) {
                 cost[j] = Integer.parseInt(costStr.nextToken());
             }
+
             bw.write(getMinCost(cost)+"\n");
         }
         bw.flush();
