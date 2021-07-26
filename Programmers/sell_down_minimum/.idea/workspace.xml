@@ -36,8 +36,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Programmers/sell_down_minimum" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,6 +65,12 @@
       <workItem from="1627126132070" duration="4730000" />
       <workItem from="1627226596150" duration="40000" />
       <workItem from="1627228131999" duration="2506000" />
+      <workItem from="1627273823120" duration="72000" />
+      <workItem from="1627273913701" duration="829000" />
+      <workItem from="1627284484785" duration="97000" />
+      <workItem from="1627284615394" duration="38000" />
+      <workItem from="1627284667234" duration="226000" />
+      <workItem from="1627285064982" duration="611000" />
     </task>
     <servers />
   </component>
