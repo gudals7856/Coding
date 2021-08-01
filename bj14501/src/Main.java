@@ -56,4 +56,13 @@ public class Main {
             dfs(i, sum);
         }
     }
+
+    public static void dp() {
+        for (int i = 1; i < n + 1; i++) {
+            if (i + t[i] <= n + 1) {
+                dp[i] = Math.max(dp[i + t[i]], dp[i] + p[i]);
+
+            }
+        }
+    }
 }
