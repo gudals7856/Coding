@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f1468ea-4be6-4c02-9a86-145ff18c3725" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="48622277-7873-439b-acf6-10f0d7fb3680" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bj17298/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bj17298/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1wGBGrs2DbAeMgvTfAXWVSOhz2d" />
+  <component name="ProjectId" id="1wNTueBsDbH3dvrbl5YpEkv85t6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,12 +30,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SSAFY_examples" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="bj17298" />
+      <module name="bj1725" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -49,16 +59,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f1468ea-4be6-4c02-9a86-145ff18c3725" name="Default Changelist" comment="" />
-      <created>1628074953055</created>
+      <changelist id="48622277-7873-439b-acf6-10f0d7fb3680" name="Default Changelist" comment="" />
+      <created>1628298273009</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628074953055</updated>
-      <workItem from="1628074954119" duration="8750000" />
-      <workItem from="1628140081003" duration="610000" />
-      <workItem from="1628145803101" duration="5779000" />
-      <workItem from="1628232504442" duration="5656000" />
-      <workItem from="1628258930964" duration="259000" />
+      <updated>1628298273009</updated>
+      <workItem from="1628298274076" duration="5514000" />
     </task>
     <servers />
   </component>
@@ -75,6 +81,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
