@@ -14,7 +14,7 @@ public class Main {
         dp = new int[n][n];
 
         for(int i=0; i<n; i++) {
-            String str = br.readLine();
+            String str = br.readLine();/**/
             String[] strArr = str.split(" ");
             for(int j=0; j<i+1; j++) {
                 tri[i][j] = Integer.parseInt(strArr[j]);
