@@ -40,10 +40,7 @@ public class Main {
                 // 현재 칸이 이전 칸보다 1 높을 때
                 else if (board[i][j] - before == 1) {
                     if (count >= l) {
-                        if (count == 1 && l == 1 && flag) {
-//                            System.out     .println("in");
-                            break;
-                        }
+                        if(count == 1 && l == 1 && flag) break;
                         count = 1;
                     }
                     else break;
@@ -73,9 +70,7 @@ public class Main {
 
                 if (j == n - 1) {
                     if (l == 1) isPossible = true;
-                    if (!flag || count == l) {
-                        isPossible = true;
-                    }
+                    if (!flag || count == l) isPossible = true;
                 }
             }
             if (isPossible) answer++;
@@ -125,9 +120,7 @@ public class Main {
 
                 if (i == n - 1) {
                     if (l == 1) isPossible = true;
-                    if (!flag || count == l) {
-                        isPossible = true;
-                    }
+                    if (!flag || count == l) isPossible = true;
                 }
             }
             if (isPossible) answer++;
