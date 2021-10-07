@@ -21,9 +21,9 @@ public class Main {
         for (int i = 0; i < t; i++) {
 
             int D_Count = 0;
-            Queue<Character> q = new LinkedList<>();
 
             // 수행할 함수 큐에 저장
+            Queue<Character> q = new LinkedList<>();
             String str = br.readLine();
             for (int j = 0; j < str.length(); j++) {
                 char c = str.charAt(j);
