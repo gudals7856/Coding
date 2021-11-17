@@ -6,6 +6,19 @@ import java.util.Map;
 
 public class Main {
 
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
+        String[] arr = new String[]{"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
+        for (String s : arr) {
+            str = str.replace(s, "a");
+        }
+
+        System.out.println(str.length());
+        // bbeolzit(str);
+    }
+
+    // 개뻘짓한 코드
     public static void bbeolzit(String str) {
         Map<String, Integer> map = new Hashtable<>();
         map.put("c=", 1);
@@ -40,17 +53,5 @@ public class Main {
             sb.setLength(0);
         }
         System.out.println(count);
-    }
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = br.readLine();
-        String[] arr = new String[]{"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
-        for (String s : arr) {
-            str = str.replace(s, "a");
-        }
-
-        System.out.println(str.length());
-        // bbeolzit(str);
     }
 }
